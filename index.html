@@ -1,66 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Unity Portfolio</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.ico">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-    <header>
-        <div class="fade-in-text">
-            <h1>Logan Henderson</h1>
-            <p>Welcome to my porfolio showcasing some personal projects and features built with Unity Engine</p>
 
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <!-- <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a> -->
+
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#about">About</a></li>
+                        <!-- <li class="page-scroll"><a href="#service">Service</a></li> -->
+                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                        <!-- <li class="page-scroll"><a href="#contact">Contact</a></li> -->
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h1>Logan Henderson</h1>
+                    <div class="page-scroll">
+                        <p class="job-title">Software Developer</p>
+                        <!-- <a href="#contact" class="btn btn-fill ">Hire me</a> -->
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border">Look at some of my Unity Projects</a>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 text-right">
+                    <img src="assets/img/logan-h.png" alt="logan-h">
+                </div>
+
+            </div>
         </div>
-    </header>
-    <section class="content-section1 content-section">
-        <div class="text">
-            <h2>Wizard Dungeon Arcade</h2>
-            <p>Designed as a couch co-op dungeon crawler. Features dual-stick controller support and enemy behavior trees. </p>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p>Hi! Welcome! Thanks for stopping by. My name is Logan and I enjoy making fun user experiences. I’m a generalist by day and a game crafter by night. I’ve managed to gain a proficiency with Unity Game Engine and this portfolio is meant to show off some of the things I’ve built.</p>
+                        <!-- <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a> -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Skills</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Unity Engine</h4>
+
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Cloud Systems</h4>
+
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>C#</h4>
+
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Linux</h4>
+
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Unity Game Services</h4>
+
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Python</h4>
+
+                        </div><!-- /.skill -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-skills -->
+
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My recent Works</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                  <a href="#" data-toggle="modal" data-target="#portfolioItem1">
+                    <div class="col-md-6 col-xs-6">
+
+                        <div class="portfolio-item">
+                          <img src="assets/img/wizstill0.PNG" class="img-res" alt="">
+                          <div class="portfolio-item-info">
+                            <h4>Wizard Dungeon Arcade</h4>
+                            
+                          </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                      </div>
+                    </a>
+                    <a href="#" data-toggle="modal" data-target="#portfolioItem2">
+                    <div class="col-md-6 col-xs-6">
+                        <div class="portfolio-item">
+                            <!-- <div class="mediai">
+                                <img src="places.PNG" alt="places" style="flex: 1;">
+                                <img src="journal.PNG" alt="journal" style="flex: 1;">
+                                <img src="entryform.PNG" alt="entryform" style="flex: 1;">
+                            </div> -->
+                            <img src="assets/img/ladish.jfif" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>La-Dishious</h4>
+
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    </a>
+                    <a href="#" data-toggle="modal" data-target="#portfolioItem3">
+                    <div class="col-md-6 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/rostill.PNG" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Ro Sham Battle!</h4>
+
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    </a>
+                    <a href="#" data-toggle="modal" data-target="#portfolioItem4">
+                    <div class="col-md-6 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/astrostill.PNG" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>AstroArmy Chess</h4>
+
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section><!-- /.secton-portfolio -->
+
+
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
+                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
+                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-xs-3">
+                    <div class="text-right page-scroll">
+                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="media">
-            <video controls loop>
+    </footer><!-- /#footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <!-- <img class="img-res" src="assets/img/portfolio-1.jpg" alt=""> -->
+            <video controls loop class="img-res">
                 <source src="wiz.mkv" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-        </div>
-    </section>
-    <section class="content-section2 content-section">
-        <div class="text">
-            <h2>La-Dishious</h2>
-            <p>A mobile app prototype with a CRUD api backend. Made as a food journal so you can remember and keep track of all the great dishes you have had and where you had them. Makes use of Google Places API and image-to-text ML models for easily recording dish names and details from menu images.</p>
-        </div>
-        <div class="mediai">
-            <img src="places.PNG" alt="places" style="flex: 1;">
-            <img src="journal.PNG" alt="journal" style="flex: 1;">
-            <img src="entryform.PNG" alt="entryform" style="flex: 1;">
-        </div>
-    </section>
-    <section class="content-section1 content-section">
-        <div class="text">
-            <h2>Ro Sham Battle!</h2>
-            <p>A PvP minigame battler that showcases the use of netcode for basic matchmaking and online multiplayer gameplay. </p>
-        </div>
-        <div class="media">
-            <video controls loop>
-                <source src="ro.mkv" type="video/mp4">
-                Your browser does not support the video tag.
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Wizard Dungeon Arcade</h4>
+            <p>Designed as a couch co-op dungeon crawler. Features dual-stick controller support and enemy behavior trees. It also uses dynamic animations and animation masks to control different parts of that character when doing multiple actions at the same time.</p>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <!-- <img class="img-res" src="assets/img/portfolio-2.jpg" alt=""> -->
+
+              <div class="screenshot-wrapper">
+                  <img src="places.PNG" alt="Screenshot 1" class="img-fluid">
+                  <img src="journal.PNG" alt="Screenshot 2" class="img-fluid">
+                  <img src="entryform.PNG" alt="Screenshot 3" class="img-fluid">
+              </div>
+
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">La-Dishious</h4>
+            <p>Developed a mobile app prototype designed as a food journal to help users remember and track the great dishes they've enjoyed and their locations. Key features include:</p>
+            <ul>
+                <li><strong>CRUD API Backend:</strong> Facilitates efficient creation, reading, updating, and deletion of entries.</li>
+                <li><strong>Google Places API Integration:</strong> Enhances location tracking by providing detailed restaurant information.</li>
+                <li><strong>Image-to-Text ML Models:</strong> Simplifies recording dish names and details by extracting information directly from menu images.</li>
+            </ul>
+            <p>This app prototype offers an intuitive and user-friendly way to document and relive culinary experiences.</p>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <!-- <img class="img-res" src="assets/img/portfolio-3.jpg" alt=""> -->
+            <video controls loop class="img-res">
+              <source src="ro.mkv" type="video/mp4">
+              Your browser does not support the video tag.
             </video>
-        </div>
-    </section>
-    <section class="content-section2 content-section">
-        <div class="text">
-            <h2>AstroArmy Chess</h2>
-            <p>This basic prototype uses Unity Editor tools for allowing designers to dynamically change the functionality of different unit abilities within the Editor.</p>
-        </div>
-        <div class="media">
-            <video controls loop>
-                <source src="astro.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Ro Sham Battle!</h4>
+            <p>A PvP minigame battler that demonstrates the implementation of netcode for basic matchmaking and online multiplayer gameplay. This project highlights the integration of networking features to provide seamless and engaging player-versus-player experiences.</p>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <!-- <img class="img-res" src="assets/img/portfolio-4.jpg" alt=""> -->
+            <video controls loop class="img-res">
+              <source src="astro.mp4" type="video/mp4">
+              Your browser does not support the video tag.
             </video>
-        </div>
-    </section>
-    <!-- Repeat the section above for more projects -->
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">AstroArmy Chess</h4>
+            <p>Developed a basic prototype using Unity Editor tools to enable designers to dynamically modify the functionality of various unit abilities in real-time within the Editor. This tool streamlines the design process, allowing for immediate adjustments and testing of unit capabilities without the need for extensive coding or recompilation.</p>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  
 </body>
 </html>
